@@ -507,6 +507,88 @@ section.home {
 /*feedback section end here*/
 
 /*article section start here*/
+.article {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.article .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.article .container .latest-article,
+.article .container .more-article {
+    width: 100%;
+    flex: 1 0 350px;
+}
+
+.article .container .latest-article img {
+    width: 100%;
+    height: 28rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.article .container .latest-article p {
+    margin: .8rem 0 ;
+    color: #666;
+}
+
+.article .container .latest-article h3 {
+    font-size: 1.4;
+    font-weight: 600;
+}
+
+.article .container .latest-article .author {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.article .container .latest-article .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 3rem;
+}
+
+.article .container .latest-article .author p {
+    font-size: .9rem;
+}
+
+.article .container .more-article {
+    display: grid;
+    gap: 1rem;
+}
+
+.article .container .more-article .box {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.article .container .more-article .box img {
+    width: 135px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .5rem;
+}
+
+.article .container .more-article .text h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.article .container .more-article .text li {
+    margin-top: .3rem;
+    list-style: none;
+    color: #666;
+}
 
 
 /*article section end here*/
@@ -623,6 +705,22 @@ section.home {
     }
 }
 
+@media (max-width: 457px) {
+    .article .container .latest-article, 
+    .article .container .more-article {
+        width: 100%;
+        flex: 1 0 250px;
+    }
+
+    .article .container .more-article .box img {
+        width: 100%;
+        height: 85px;
+    }
+
+    .article .container .more-article .text h3 {
+        font-size: 1.1rem;
+    }
+}
 
 
 
