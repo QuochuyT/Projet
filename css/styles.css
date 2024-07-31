@@ -340,6 +340,177 @@ section.home {
 
 /*presentation section end here*/
 
+
+/*featured section start here*/
+.featured {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.featured .gallery .box:first-child {
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 2rem 1.5rem;
+}
+
+.featured .gallery .box:first-child h2 {
+    margin-bottom: .5rem;
+}
+
+.featured .gallery .box:first-child p {
+    margin-bottom: .5rem;
+    color: #666;
+}
+
+.featured .gallery .box:first-child a {
+    position: absolute;
+    bottom: 2rem;
+    padding: .4rem 1rem;
+    color: var(--white-color);
+    background: var(--beige-color);
+    border-radius: 3rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.featured .gallery .box:first-child a:hover{
+    background: var(--green-color);
+}
+
+.featured .gallery .box:first-child .image {
+    width: 40%;
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+}
+
+.featured .gallery .box .content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+}
+
+.featured .gallery .box .content h2 {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.featured .gallery .box .content p {
+    font-size: .9rem;
+    color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .gallery .box .content .review-and-idr .review {
+    font-size: .9rem;
+    color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr .review i {
+    color: #ffa600;
+}
+
+.featured .gallery .box .content.review-and-idr p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--white-color)
+}
+/*featured section end here*/
+
+/*feedback section start here*/
+
+.feedback {
+    background: url("/img/cabinet.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback .container h4 {
+    color: rgb(255 255 255/90%);
+}
+
+.feedback .container H2 {
+    max-width: 40rem;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.feedback .container p {
+    color: #eee;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.feedback .voices {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.feedback .voices .voice {
+    flex: 1 0 320px;
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: .7rem;
+}
+
+.feedback .voices .voice .profil {
+    display: flex;
+    align-items: center;
+}
+
+.feedback .voices .voice .profil img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2rem;
+}
+
+.feedback .voices .voice .profil .detail {
+    margin-left: 1rem;
+
+}
+
+.feedback .voices .voice .profil .detail li {
+    list-style: none;
+}
+
+.feedback .voices .voice .profil .detail li:first-child {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.feedback .voices .voice p {
+    margin-top: 1rem;
+}
+/*feedback section end here*/
+
+/*article section start here*/
+
+
+/*article section end here*/
+
 /* media section start here */
 @media (max-width: 1020px) {
     html{
@@ -435,6 +606,10 @@ section.home {
 
     .presentation .container .container-box .content {
         font-size: .8rem;
+    }
+
+    .feedback .container p {
+        font-size: .9rem;
     }
 }
 
