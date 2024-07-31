@@ -19,7 +19,7 @@
 }
 
 ::selection {
-    background: var(--beige-color);
+    background: var(--green-color);
     color: var(--white-color); 
 }
 
@@ -82,7 +82,7 @@ section.home {
 }
 
 .home .home-box nav .logo h3 {
-    color: var(--dark-green-color);
+    color: var(--white-color);
     font-weight: 400;
 }
 
@@ -97,7 +97,7 @@ section.home {
 }
 
 .home .home-box nav .menu ul li a {
-    color: var(--dark-green);
+    color: var(--white-color);
     font-weight: 400;
 }
 
@@ -112,7 +112,7 @@ section.home {
 }
 
 .home .home-box nav .signup-login a {
-    color: var(--dark-green-color);
+    color: var(--white-color);
     padding: .3rem 1rem;
     border-radius: 2rem;
 }
@@ -127,4 +127,158 @@ section.home {
     background: #02636e;
 }
 
+.home .home-box .content {
+    width: 100%;
+    height: calc(100% - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0, -65px);
+}
 
+.home .home-box .content h5 {
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.home .home-box .content h1 {
+    font-size: 4rem;
+    max-width: 50rem;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.home .home-box .content p {
+    color: #eee;
+    font-weight: 300;
+    max-width: 40rem;
+    font-size: 1.1;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home .home-box .content .search {
+    width: 100%;
+    max-width: 38rem;
+    height: 45px;
+    background: var(--white-color);
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+}
+
+.home .home-box .content .search i {
+    color: rgba(0,0,0,.5);
+    margin: 0 .6rem;
+}
+
+.home .home-box .content .search input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 400;
+}
+
+.home .home-box .content .search button {
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: inherit;
+    background: var(--beige-color);
+    border: none;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.home .home-box .content .search button:hover {
+    background: #02636e;
+}
+
+/* media section start here */
+@media (max-width: 1020px) {
+    html{
+        font-size: 85%
+    }
+}
+
+@media (max-width: 910px) {
+    .home .home-box nav{
+        padding: 0 1rem;
+    }
+
+    .home .home-box nav .menu ul{
+
+    }
+}
+
+@media (max-width: 767px) {
+    .home .home-box nav .menu{
+        display: none;
+    }
+    
+    .home .home-box nav .logo .bars {
+        display: block;
+    }
+
+    .home .home-box nav .menu.active {
+        display: block;
+        position: absolute;
+        left: -1.5rem;
+        top: -1.5rem;
+        width: 100vw;
+        height: 100vh;
+        background: rgb(0 0 0/90%);
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    .home .home-box nav .menu .close {
+        display: block;
+        position: absolute;
+        left: 3rem;
+        top: 3rem;
+        cursor: pointer;
+        color: var(--white-color);
+        font-size: 2rem;
+    }
+        
+    .home .home-box nav .menu .close:hover {
+        color: rgb(255 255 255/40%);
+    }
+
+    .home .home-box nav .menu ul {
+        flex-direction: column;
+        font-size: 1.3rem;
+        gap: 1rem;
+    }
+
+    .home .home-box nav .menu ul:hover li a{
+        color: rgb(255 255 255/40%);
+    }
+
+    .home .home-box nav .menu ul li a:hover{
+        color: var(--white-color);
+    }    
+}
+
+@media (max-width: 607px) {
+    html {
+        font-size: 85%
+    }
+}
+
+
+
+
+/* media section start here */
