@@ -270,11 +270,19 @@ section.home {
     .home .home-box nav .menu ul li a:hover{
         color: var(--white-color);
     }    
+
+    .home .home-box .content {
+        padding: 2rem;
+    }
 }
 
 @media (max-width: 607px) {
-    html {
-        font-size: 85%
+    .home .home-box .content h1 {
+        font-size: 2rem;
+    }
+
+    .home .home-box .content p {
+        font-size: .8rem;
     }
 }
 
