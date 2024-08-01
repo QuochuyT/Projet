@@ -593,6 +593,115 @@ section.home {
 
 /*article section end here*/
 
+/* footer section start here */
+
+footer {
+    padding: 1rem;
+    width: 100%;
+}
+
+footer .footer {
+    background: var(--beige-color);
+    border-radius: .7rem;
+    padding: 6rem 7rem;
+    padding-bottom: 1rem;
+}
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--green-color);
+}
+
+footer .footer .container .detail {
+    max-width: 32rem;
+}
+
+footer .footer .container .detail h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+footer .footer .container .detail p {
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+footer .footer .container .detail h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+footer .footer .container .detail a {
+    color:black;
+    font-size: .9rem;
+    border-bottom: 2px solid #00cee4;
+    padding: 1px 0;
+    display: inline-block;
+}
+
+footer .footer .container .detail .social {
+    display: flex;
+    gap: .8rem;
+    margin-top: 1rem;
+}
+
+footer .footer .container .detail .social a {
+    border: none;
+    font-size: 1.3rem;
+    color: #000;
+}
+
+footer .footer .container h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: #000;
+}
+
+footer .footer .container li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+footer .footer .container a {
+    color: #000;
+}
+
+footer .footer .container a:hover {
+    color: var(--green-color);
+}
+
+footer .footer .container span {
+    color: #000;
+    background: #00cee4;
+    font-size: .9rem;
+    padding: .1rem .5rem;
+    border-radius: .3rem;
+    font-weight: 500;
+}
+
+footer .footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: black;
+    text-align: center;
+}
+
+footer .footer .copyright A {
+    color: black;
+    margin-left: 1rem;
+    text-align: center;
+}
+/* footer section end here */
+
 /* media section start here */
 @media (max-width: 1020px) {
     html{
