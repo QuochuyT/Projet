@@ -91,7 +91,16 @@ animateContent([".home .content h5, .home .content h1, .home .content p, .home .
 
 scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"])
 
+scrollTirggerAnimation(".feedback .container", [".feedback .label", ".feedback .heading", ".feedback .paragraph"])
+
+scrollTirggerAnimation(".article", [".article .label", ".article .heading"])
+
 swipeAnimation(".presentation", [".presentation .heading", ".presentation .content"])
 
 galleryAnimation(".presentation .gallery", [".presentation .gallery .box1", ".presentation .gallery .box2", ".presentation .gallery .box3", ".presentation .gallery .box4", ".presentation .gallery .box5"])
+
+galleryAnimation(".featured .gallery", [".featured .gallery .box1", ".featured .gallery .box2", ".featured .gallery .box3", ".featured .gallery .box4", ".featured .gallery .box5"])
+
+galleryAnimation(".feedback .voices", [".feedback .voices .box1", ".feedback .voices .box2", ".feedback .voices .box3"])
+
 

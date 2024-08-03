@@ -441,6 +441,11 @@ section.home {
     font-weight: 500;
     color: var(--white-color)
 }
+
+.featured .gallery .box{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
 /*featured section end here*/
 
 /*feedback section start here*/
@@ -522,6 +527,18 @@ section.home {
 
 .feedback .voices .voice p {
     margin-top: 1rem;
+}
+
+.feedback .container .label,
+.feedback .container .heading,
+.feedback .container .paragraph {
+    transform: translate(0, 10px);
+    opacity: 0;
+}
+
+.feedback .voices .voice {
+    transform: translate(0, 100px);
+    opacity: 0;
 }
 /*feedback section end here*/
 
@@ -608,6 +625,7 @@ section.home {
     list-style: none;
     color: #666;
 }
+
 
 
 /*article section end here*/
