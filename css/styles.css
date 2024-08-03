@@ -221,6 +221,11 @@ section.home {
     background: #02636e;
 }
 
+.home .home-box .content h5, .home .home-box .content h1, .home .home-box .content p, .home .home-box .content .search {
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
 /*travel section stars here*/
 
 .travel .container {
@@ -237,6 +242,8 @@ section.home {
     padding: 0 1rem;
     text-align: center;
     max-width: 30rem;
+    transform: translate(0, 100px);
+    opacity: 0;
 }
 
 .travel .container .box img {
@@ -253,6 +260,8 @@ section.home {
 .travel .container .box p {
     color: #666;
 }
+
+
 
 /*travel section ends here*/
 
@@ -338,6 +347,16 @@ section.home {
     font-weight: 500;
 }
 
+.presentation .container .container-box .heading,
+.presentation .container .container-box .content {
+    transform: translate(-200px);
+    opacity: 0;
+}
+
+.presentation .gallery .box {
+    transform: translate(0, 100px);
+    opacity: 0;
+}
 /*presentation section end here*/
 
 
@@ -731,7 +750,7 @@ footer .footer .copyright A {
     }
 
     footer .footer .container {
-        
+        flex-direction: column;
     }
 }
 
